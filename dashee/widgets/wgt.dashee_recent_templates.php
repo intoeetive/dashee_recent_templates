@@ -33,9 +33,9 @@ class Wgt_dashee_recent_templates
 	{	
 		$this->_EE 		=& get_instance();
 		$this->_EE->lang->loadfile('modules');
-		$this->_EE->lang->loadfile('dashee_latest_templates');  
+		$this->_EE->lang->loadfile('dashee_recent_templates');  
 		
-		$this->title  	= lang('wgt_dashee_latest_templates_name');
+		$this->title  	= lang('wgt_dashee_recent_templates_name');
 		$this->wclass 	= 'contentMenu';	
 		
 		// define default widget settings
